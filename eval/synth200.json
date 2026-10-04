@@ -1,0 +1,2002 @@
+[
+ {
+  "id": "s000",
+  "text": "bei ya maharage eldoret leo ni shilingi mia moja na themanini kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Eldoret",
+   "price": 180,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s001",
+  "text": "mbeya leo bei ya mahindi ni shilingi mia nane na hamsini kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Mbeya",
+   "price": 850,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s002",
+  "text": "bei ya mchele kisumu ni shilingi mia moja tisini kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Kisumu",
+   "price": 190,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s003",
+  "text": "bei ya mahindi mwanza ni shilingi elfu tisini na tano kwa gunia la kilo mia moja",
+  "truth": {
+   "crop": "maize",
+   "place": "Mwanza",
+   "price": 95000,
+   "unit": "100 KG"
+  }
+ },
+ {
+  "id": "s004",
+  "text": "arusha bei ya mahindi ni elfu tisini na moja kwa gunia la kilo mia moja",
+  "truth": {
+   "crop": "maize",
+   "place": "Arusha",
+   "price": 91000,
+   "unit": "100 KG"
+  }
+ },
+ {
+  "id": "s005",
+  "text": "bei ya mchele eldoret ni shilingi mia mbili na kumi kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Eldoret",
+   "price": 210,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s006",
+  "text": "nakuru bei ya mahindi ni shilingi elfu sita mia mbili hamsini kwa gunia la kilo tisini",
+  "truth": {
+   "crop": "maize",
+   "place": "Nakuru",
+   "price": 6250,
+   "unit": "90 KG"
+  }
+ },
+ {
+  "id": "s007",
+  "text": "bei ya mahindi sokoni kampala leo ni shilingi elfu moja mia saba na hamsini kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Kampala",
+   "price": 1750,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s008",
+  "text": "mahindi kisii leo ni shilingi tisini kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Kisii",
+   "price": 90,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s009",
+  "text": "bei ya mahindi dar es salaam leo ni elfu moja na hamsini kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Dar es Salaam",
+   "price": 1050,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s010",
+  "text": "bei ya maharage kampala leo ni elfu tatu mia saba kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Kampala",
+   "price": 3700,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s011",
+  "text": "bei ya mahindi sokoni morogoro leo ni elfu moja kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Morogoro",
+   "price": 1000,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s012",
+  "text": "bei ya mahindi kampala ni mia tisa kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Kampala",
+   "price": 900,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s013",
+  "text": "eldoret bei ya maharage ni shilingi mia mbili kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Eldoret",
+   "price": 200,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s014",
+  "text": "bei ya maharage mbeya ni shilingi elfu mbili mia sita kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Mbeya",
+   "price": 2600,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s015",
+  "text": "bei ya mahindi sokoni mombasa ni shilingi elfu tatu na mia tatu kwa gunia la kilo tisini",
+  "truth": {
+   "crop": "maize",
+   "place": "Mombasa",
+   "price": 3300,
+   "unit": "90 KG"
+  }
+ },
+ {
+  "id": "s016",
+  "text": "bei ya mahindi mbeya ni elfu sitini na tisa kwa gunia la kilo mia moja",
+  "truth": {
+   "crop": "maize",
+   "place": "Mbeya",
+   "price": 69000,
+   "unit": "100 KG"
+  }
+ },
+ {
+  "id": "s017",
+  "text": "mbeya bei ya mchele ni shilingi elfu mbili na mia nne na hamsini kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Mbeya",
+   "price": 2450,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s018",
+  "text": "bei ya maharage kampala ni shilingi elfu nne na mia moja kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Kampala",
+   "price": 4100,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s019",
+  "text": "bei ya mahindi nakuru ni sitini kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Nakuru",
+   "price": 60,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s020",
+  "text": "bei ya mahindi arusha leo ni laki moja na elfu kumi na moja kwa gunia la kilo mia moja",
+  "truth": {
+   "crop": "maize",
+   "place": "Arusha",
+   "price": 111000,
+   "unit": "100 KG"
+  }
+ },
+ {
+  "id": "s021",
+  "text": "mahindi nairobi leo ni shilingi elfu sita kwa gunia",
+  "truth": {
+   "crop": "maize",
+   "place": "Nairobi",
+   "price": 6000,
+   "unit": "BAG"
+  }
+ },
+ {
+  "id": "s022",
+  "text": "bei ya maharage nakuru ni shilingi mia moja na hamsini kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Nakuru",
+   "price": 150,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s023",
+  "text": "bei ya mchele dar es salaam ni elfu mbili na mia tano na hamsini",
+  "truth": {
+   "crop": "rice",
+   "place": "Dar es Salaam",
+   "price": 2550,
+   "unit": null
+  }
+ },
+ {
+  "id": "s024",
+  "text": "bei ya mahindi dar es salaam ni elfu moja na hamsini kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Dar es Salaam",
+   "price": 1050,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s025",
+  "text": "bei ya maharage eldoret ni shilingi elfu nane na mia tatu kwa gunia",
+  "truth": {
+   "crop": "beans",
+   "place": "Eldoret",
+   "price": 8300,
+   "unit": "BAG"
+  }
+ },
+ {
+  "id": "s026",
+  "text": "eldoret leo bei ya maharage ni shilingi mia mbili kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Eldoret",
+   "price": 200,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s027",
+  "text": "bei ya maharage kampala ni elfu tatu na mia nane kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Kampala",
+   "price": 3800,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s028",
+  "text": "bei ya mahindi kakamega ni hamsini kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Kakamega",
+   "price": 50,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s029",
+  "text": "bei ya maharage sokoni arusha ni shilingi elfu mbili na mia nane na hamsini",
+  "truth": {
+   "crop": "beans",
+   "place": "Arusha",
+   "price": 2850,
+   "unit": null
+  }
+ },
+ {
+  "id": "s030",
+  "text": "bei ya maharage eldoret leo ni shilingi elfu kumi na nne kwa gunia",
+  "truth": {
+   "crop": "beans",
+   "place": "Eldoret",
+   "price": 14000,
+   "unit": "BAG"
+  }
+ },
+ {
+  "id": "s031",
+  "text": "bei ya maharage dodoma ni shilingi elfu mbili na mia tatu na hamsini kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Dodoma",
+   "price": 2350,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s032",
+  "text": "bei ya mchele mwanza ni shilingi elfu mbili na mia tisa na hamsini kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Mwanza",
+   "price": 2950,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s033",
+  "text": "bei ya mahindi kitale leo ni shilingi sabini na tano kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Kitale",
+   "price": 75,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s034",
+  "text": "nakuru leo bei ya mahindi ni shilingi hamsini kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Nakuru",
+   "price": 50,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s035",
+  "text": "bei ya mahindi kakamega leo ni elfu sita na mia moja kwa gunia la kilo tisini",
+  "truth": {
+   "crop": "maize",
+   "place": "Kakamega",
+   "price": 6100,
+   "unit": "90 KG"
+  }
+ },
+ {
+  "id": "s036",
+  "text": "bei ya mchele sokoni mombasa leo ni mia moja na hamsini",
+  "truth": {
+   "crop": "rice",
+   "place": "Mombasa",
+   "price": 150,
+   "unit": null
+  }
+ },
+ {
+  "id": "s037",
+  "text": "mahindi sokoni mwanza leo ni shilingi elfu tisini na mbili kwa gunia la kilo mia moja",
+  "truth": {
+   "crop": "maize",
+   "place": "Mwanza",
+   "price": 92000,
+   "unit": "100 KG"
+  }
+ },
+ {
+  "id": "s038",
+  "text": "nairobi bei ya maharage ni elfu tisa mia sita kwa gunia",
+  "truth": {
+   "crop": "beans",
+   "place": "Nairobi",
+   "price": 9600,
+   "unit": "BAG"
+  }
+ },
+ {
+  "id": "s039",
+  "text": "bei ya maharage morogoro leo ni elfu mbili mia tisa",
+  "truth": {
+   "crop": "beans",
+   "place": "Morogoro",
+   "price": 2900,
+   "unit": null
+  }
+ },
+ {
+  "id": "s040",
+  "text": "bei ya mahindi sokoni nakuru ni shilingi elfu nne na mia sita na hamsini kwa gunia",
+  "truth": {
+   "crop": "maize",
+   "place": "Nakuru",
+   "price": 4650,
+   "unit": "BAG"
+  }
+ },
+ {
+  "id": "s041",
+  "text": "mwanza bei ya mahindi ni shilingi elfu moja na mia mbili na hamsini kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Mwanza",
+   "price": 1250,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s042",
+  "text": "bei ya mahindi kisumu ni hamsini kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Kisumu",
+   "price": 50,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s043",
+  "text": "mahindi mombasa leo ni shilingi arobaini",
+  "truth": {
+   "crop": "maize",
+   "place": "Mombasa",
+   "price": 40,
+   "unit": null
+  }
+ },
+ {
+  "id": "s044",
+  "text": "dodoma bei ya mchele ni shilingi elfu tatu hamsini kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Dodoma",
+   "price": 3050,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s045",
+  "text": "kitale leo bei ya mahindi ni shilingi hamsini na tano kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Kitale",
+   "price": 55,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s046",
+  "text": "bei ya maharage sokoni kisumu ni shilingi mia moja na arobaini kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Kisumu",
+   "price": 140,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s047",
+  "text": "bei ya maharage sokoni dar es salaam leo ni shilingi elfu mbili na mia nne na hamsini",
+  "truth": {
+   "crop": "beans",
+   "place": "Dar es Salaam",
+   "price": 2450,
+   "unit": null
+  }
+ },
+ {
+  "id": "s048",
+  "text": "bei ya maharage mombasa ni mia moja na hamsini kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Mombasa",
+   "price": 150,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s049",
+  "text": "bei ya maharage dar es salaam leo ni shilingi elfu mbili na mia tatu",
+  "truth": {
+   "crop": "beans",
+   "place": "Dar es Salaam",
+   "price": 2300,
+   "unit": null
+  }
+ },
+ {
+  "id": "s050",
+  "text": "nairobi leo bei ya mahindi ni shilingi elfu nne na mia tisa kwa gunia",
+  "truth": {
+   "crop": "maize",
+   "place": "Nairobi",
+   "price": 4900,
+   "unit": "BAG"
+  }
+ },
+ {
+  "id": "s051",
+  "text": "bei ya maharage gulu ni shilingi elfu tatu mia tano kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Gulu",
+   "price": 3500,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s052",
+  "text": "mahindi sokoni gulu ni elfu mbili kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Gulu",
+   "price": 2000,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s053",
+  "text": "kampala bei ya maharage ni shilingi elfu mbili na mia saba kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Kampala",
+   "price": 2700,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s054",
+  "text": "bei ya mchele morogoro ni shilingi elfu mbili na hamsini kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Morogoro",
+   "price": 2050,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s055",
+  "text": "morogoro bei ya maharage ni elfu mbili na mia moja kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Morogoro",
+   "price": 2100,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s056",
+  "text": "bei ya mchele kitale ni shilingi mia moja thelathini na tano kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Kitale",
+   "price": 135,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s057",
+  "text": "bei ya mahindi sokoni kampala ni shilingi elfu moja kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Kampala",
+   "price": 1000,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s058",
+  "text": "bei ya mchele mwanza ni shilingi elfu tatu na hamsini kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Mwanza",
+   "price": 3050,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s059",
+  "text": "mahindi kitale ni elfu nne na mia tisa na hamsini",
+  "truth": {
+   "crop": "maize",
+   "place": "Kitale",
+   "price": 4950,
+   "unit": null
+  }
+ },
+ {
+  "id": "s060",
+  "text": "kakamega leo bei ya mahindi ni shilingi hamsini na tano",
+  "truth": {
+   "crop": "maize",
+   "place": "Kakamega",
+   "price": 55,
+   "unit": null
+  }
+ },
+ {
+  "id": "s061",
+  "text": "maharage eldoret leo ni mia mbili na kumi kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Eldoret",
+   "price": 210,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s062",
+  "text": "bei ya mahindi kisii leo ni shilingi elfu tano mia nane hamsini",
+  "truth": {
+   "crop": "maize",
+   "place": "Kisii",
+   "price": 5850,
+   "unit": null
+  }
+ },
+ {
+  "id": "s063",
+  "text": "bei ya maharage kakamega ni mia moja na thelathini kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Kakamega",
+   "price": 130,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s064",
+  "text": "bei ya mahindi dodoma ni elfu themanini na tatu kwa gunia la kilo mia moja",
+  "truth": {
+   "crop": "maize",
+   "place": "Dodoma",
+   "price": 83000,
+   "unit": "100 KG"
+  }
+ },
+ {
+  "id": "s065",
+  "text": "maharage kitale ni shilingi elfu kumi na moja mia nne kwa gunia",
+  "truth": {
+   "crop": "beans",
+   "place": "Kitale",
+   "price": 11400,
+   "unit": "BAG"
+  }
+ },
+ {
+  "id": "s066",
+  "text": "gulu bei ya mahindi ni elfu moja na mia saba na hamsini",
+  "truth": {
+   "crop": "maize",
+   "place": "Gulu",
+   "price": 1750,
+   "unit": null
+  }
+ },
+ {
+  "id": "s067",
+  "text": "bei ya maharage nairobi leo ni elfu kumi na nne na mia mbili kwa gunia",
+  "truth": {
+   "crop": "beans",
+   "place": "Nairobi",
+   "price": 14200,
+   "unit": "BAG"
+  }
+ },
+ {
+  "id": "s068",
+  "text": "bei ya maharage gulu leo ni shilingi elfu tatu na mia saba kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Gulu",
+   "price": 3700,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s069",
+  "text": "bei ya mchele morogoro leo ni elfu mbili mia tatu hamsini kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Morogoro",
+   "price": 2350,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s070",
+  "text": "bei ya maharage nakuru leo ni shilingi mia moja na sabini kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Nakuru",
+   "price": 170,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s071",
+  "text": "maharage sokoni kampala ni shilingi elfu tatu na mia saba",
+  "truth": {
+   "crop": "beans",
+   "place": "Kampala",
+   "price": 3700,
+   "unit": null
+  }
+ },
+ {
+  "id": "s072",
+  "text": "bei ya mahindi kampala ni elfu moja kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Kampala",
+   "price": 1000,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s073",
+  "text": "bei ya mahindi sokoni eldoret leo ni elfu tatu mia mbili kwa gunia",
+  "truth": {
+   "crop": "maize",
+   "place": "Eldoret",
+   "price": 3200,
+   "unit": "BAG"
+  }
+ },
+ {
+  "id": "s074",
+  "text": "maharage sokoni mbeya ni elfu mbili na mia saba kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Mbeya",
+   "price": 2700,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s075",
+  "text": "bei ya maharage gulu ni shilingi elfu mbili na mia saba",
+  "truth": {
+   "crop": "beans",
+   "place": "Gulu",
+   "price": 2700,
+   "unit": null
+  }
+ },
+ {
+  "id": "s076",
+  "text": "bei ya mahindi gulu leo ni shilingi elfu moja mia saba",
+  "truth": {
+   "crop": "maize",
+   "place": "Gulu",
+   "price": 1700,
+   "unit": null
+  }
+ },
+ {
+  "id": "s077",
+  "text": "mchele kisumu ni mia moja kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Kisumu",
+   "price": 100,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s078",
+  "text": "bei ya maharage arusha ni elfu mbili kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Arusha",
+   "price": 2000,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s079",
+  "text": "bei ya mahindi kitale ni tisini kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Kitale",
+   "price": 90,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s080",
+  "text": "mchele kisumu leo ni shilingi mia moja na arobaini na tano kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Kisumu",
+   "price": 145,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s081",
+  "text": "mahindi sokoni nakuru ni shilingi themanini na tano kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Nakuru",
+   "price": 85,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s082",
+  "text": "bei ya mahindi dodoma ni mia tisa na hamsini",
+  "truth": {
+   "crop": "maize",
+   "place": "Dodoma",
+   "price": 950,
+   "unit": null
+  }
+ },
+ {
+  "id": "s083",
+  "text": "nakuru bei ya maharage ni shilingi mia moja na thelathini kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Nakuru",
+   "price": 130,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s084",
+  "text": "bei ya mahindi sokoni nairobi ni elfu tano na mia nne kwa gunia",
+  "truth": {
+   "crop": "maize",
+   "place": "Nairobi",
+   "price": 5400,
+   "unit": "BAG"
+  }
+ },
+ {
+  "id": "s085",
+  "text": "kitale leo bei ya mahindi ni elfu tano na mia nne kwa gunia la kilo tisini",
+  "truth": {
+   "crop": "maize",
+   "place": "Kitale",
+   "price": 5400,
+   "unit": "90 KG"
+  }
+ },
+ {
+  "id": "s086",
+  "text": "bei ya maharage gulu ni shilingi elfu tatu na mia moja kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Gulu",
+   "price": 3100,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s087",
+  "text": "kakamega leo bei ya mchele ni shilingi mia moja tano",
+  "truth": {
+   "crop": "rice",
+   "place": "Kakamega",
+   "price": 105,
+   "unit": null
+  }
+ },
+ {
+  "id": "s088",
+  "text": "kampala leo bei ya maharage ni shilingi elfu nne na mia nne kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Kampala",
+   "price": 4400,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s089",
+  "text": "gulu bei ya maharage ni shilingi elfu tatu na mia tatu kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Gulu",
+   "price": 3300,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s090",
+  "text": "kisumu bei ya mahindi ni shilingi elfu nne na mia nne na hamsini kwa gunia la kilo tisini",
+  "truth": {
+   "crop": "maize",
+   "place": "Kisumu",
+   "price": 4450,
+   "unit": "90 KG"
+  }
+ },
+ {
+  "id": "s091",
+  "text": "kakamega bei ya mahindi ni sabini na tano kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Kakamega",
+   "price": 75,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s092",
+  "text": "bei ya maharage sokoni kampala leo ni shilingi elfu nne na mia nne kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Kampala",
+   "price": 4400,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s093",
+  "text": "bei ya maharage kitale leo ni shilingi elfu kumi na tatu na mia mbili kwa gunia",
+  "truth": {
+   "crop": "beans",
+   "place": "Kitale",
+   "price": 13200,
+   "unit": "BAG"
+  }
+ },
+ {
+  "id": "s094",
+  "text": "nairobi bei ya mahindi ni shilingi elfu tatu na mia tano kwa gunia la kilo tisini",
+  "truth": {
+   "crop": "maize",
+   "place": "Nairobi",
+   "price": 3500,
+   "unit": "90 KG"
+  }
+ },
+ {
+  "id": "s095",
+  "text": "eldoret bei ya mchele ni shilingi mia moja sitini na tano kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Eldoret",
+   "price": 165,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s096",
+  "text": "bei ya mahindi kampala leo ni shilingi elfu moja mia tatu na hamsini kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Kampala",
+   "price": 1350,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s097",
+  "text": "eldoret bei ya mchele ni shilingi mia moja na arobaini na tano kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Eldoret",
+   "price": 145,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s098",
+  "text": "mchele nakuru ni mia mbili",
+  "truth": {
+   "crop": "rice",
+   "place": "Nakuru",
+   "price": 200,
+   "unit": null
+  }
+ },
+ {
+  "id": "s099",
+  "text": "nairobi leo bei ya mahindi ni shilingi elfu nne na mia nne na hamsini kwa gunia",
+  "truth": {
+   "crop": "maize",
+   "place": "Nairobi",
+   "price": 4450,
+   "unit": "BAG"
+  }
+ },
+ {
+  "id": "s100",
+  "text": "mombasa bei ya mahindi ni shilingi elfu sita na mia mbili na hamsini kwa gunia la kilo tisini",
+  "truth": {
+   "crop": "maize",
+   "place": "Mombasa",
+   "price": 6250,
+   "unit": "90 KG"
+  }
+ },
+ {
+  "id": "s101",
+  "text": "bei ya mahindi mombasa ni shilingi elfu nne na mia tatu na hamsini",
+  "truth": {
+   "crop": "maize",
+   "place": "Mombasa",
+   "price": 4350,
+   "unit": null
+  }
+ },
+ {
+  "id": "s102",
+  "text": "bei ya mchele kisumu ni shilingi mia moja hamsini kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Kisumu",
+   "price": 150,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s103",
+  "text": "bei ya mahindi kakamega leo ni shilingi elfu tatu mia sita kwa gunia la kilo tisini",
+  "truth": {
+   "crop": "maize",
+   "place": "Kakamega",
+   "price": 3600,
+   "unit": "90 KG"
+  }
+ },
+ {
+  "id": "s104",
+  "text": "bei ya mahindi nairobi ni shilingi sabini kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Nairobi",
+   "price": 70,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s105",
+  "text": "kitale bei ya maharage ni shilingi mia moja themanini",
+  "truth": {
+   "crop": "beans",
+   "place": "Kitale",
+   "price": 180,
+   "unit": null
+  }
+ },
+ {
+  "id": "s106",
+  "text": "bei ya mahindi kakamega leo ni elfu tano mia tatu",
+  "truth": {
+   "crop": "maize",
+   "place": "Kakamega",
+   "price": 5300,
+   "unit": null
+  }
+ },
+ {
+  "id": "s107",
+  "text": "bei ya mahindi morogoro leo ni laki moja na elfu kumi na tisa kwa gunia la kilo mia moja",
+  "truth": {
+   "crop": "maize",
+   "place": "Morogoro",
+   "price": 119000,
+   "unit": "100 KG"
+  }
+ },
+ {
+  "id": "s108",
+  "text": "mahindi mbeya ni shilingi elfu moja na mia nne kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Mbeya",
+   "price": 1400,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s109",
+  "text": "bei ya mahindi gulu ni shilingi elfu moja kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Gulu",
+   "price": 1000,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s110",
+  "text": "bei ya mahindi arusha ni elfu sitini na mbili kwa gunia la kilo mia moja",
+  "truth": {
+   "crop": "maize",
+   "place": "Arusha",
+   "price": 62000,
+   "unit": "100 KG"
+  }
+ },
+ {
+  "id": "s111",
+  "text": "bei ya mchele kisumu ni shilingi mia moja na themanini na tano kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Kisumu",
+   "price": 185,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s112",
+  "text": "bei ya mahindi sokoni gulu ni shilingi elfu moja na mia tatu na hamsini kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Gulu",
+   "price": 1350,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s113",
+  "text": "bei ya mchele mbeya leo ni elfu mbili mia tatu hamsini kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Mbeya",
+   "price": 2350,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s114",
+  "text": "bei ya maharage mombasa leo ni shilingi elfu kumi na tatu na mia tano kwa gunia",
+  "truth": {
+   "crop": "beans",
+   "place": "Mombasa",
+   "price": 13500,
+   "unit": "BAG"
+  }
+ },
+ {
+  "id": "s115",
+  "text": "maharage sokoni gulu ni shilingi elfu nne na mia moja kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Gulu",
+   "price": 4100,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s116",
+  "text": "mahindi dar es salaam leo ni shilingi laki moja na elfu nne kwa gunia la kilo mia moja",
+  "truth": {
+   "crop": "maize",
+   "place": "Dar es Salaam",
+   "price": 104000,
+   "unit": "100 KG"
+  }
+ },
+ {
+  "id": "s117",
+  "text": "bei ya maharage kampala ni shilingi elfu mbili na mia saba kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Kampala",
+   "price": 2700,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s118",
+  "text": "bei ya mahindi kisii ni shilingi hamsini na tano kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Kisii",
+   "price": 55,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s119",
+  "text": "mombasa leo bei ya mahindi ni sabini kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Mombasa",
+   "price": 70,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s120",
+  "text": "kisii bei ya maharage ni shilingi mia mbili kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Kisii",
+   "price": 200,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s121",
+  "text": "nairobi bei ya maharage ni shilingi mia moja na themanini kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Nairobi",
+   "price": 180,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s122",
+  "text": "kisumu bei ya maharage ni shilingi elfu kumi na moja na mia saba kwa gunia",
+  "truth": {
+   "crop": "beans",
+   "place": "Kisumu",
+   "price": 11700,
+   "unit": "BAG"
+  }
+ },
+ {
+  "id": "s123",
+  "text": "bei ya maharage kisumu leo ni shilingi mia moja na ishirini kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Kisumu",
+   "price": 120,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s124",
+  "text": "bei ya mchele kisumu ni shilingi mia moja kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Kisumu",
+   "price": 100,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s125",
+  "text": "mahindi arusha leo ni shilingi elfu sabini na tatu kwa gunia la kilo mia moja",
+  "truth": {
+   "crop": "maize",
+   "place": "Arusha",
+   "price": 73000,
+   "unit": "100 KG"
+  }
+ },
+ {
+  "id": "s126",
+  "text": "bei ya mahindi nakuru leo ni shilingi elfu tatu na mia tisa kwa gunia la kilo tisini",
+  "truth": {
+   "crop": "maize",
+   "place": "Nakuru",
+   "price": 3900,
+   "unit": "90 KG"
+  }
+ },
+ {
+  "id": "s127",
+  "text": "bei ya mahindi gulu leo ni shilingi elfu moja mia nane hamsini kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Gulu",
+   "price": 1850,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s128",
+  "text": "bei ya mahindi nakuru ni shilingi elfu tatu na hamsini kwa gunia",
+  "truth": {
+   "crop": "maize",
+   "place": "Nakuru",
+   "price": 3050,
+   "unit": "BAG"
+  }
+ },
+ {
+  "id": "s129",
+  "text": "nairobi bei ya maharage ni shilingi elfu nane na mia nane kwa gunia",
+  "truth": {
+   "crop": "beans",
+   "place": "Nairobi",
+   "price": 8800,
+   "unit": "BAG"
+  }
+ },
+ {
+  "id": "s130",
+  "text": "dodoma bei ya maharage ni elfu mbili mia sita kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Dodoma",
+   "price": 2600,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s131",
+  "text": "nakuru bei ya mchele ni shilingi mia moja na arobaini",
+  "truth": {
+   "crop": "rice",
+   "place": "Nakuru",
+   "price": 140,
+   "unit": null
+  }
+ },
+ {
+  "id": "s132",
+  "text": "kisumu leo bei ya mahindi ni shilingi sitini kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Kisumu",
+   "price": 60,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s133",
+  "text": "nakuru leo bei ya mchele ni shilingi mia moja na themanini kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Nakuru",
+   "price": 180,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s134",
+  "text": "mombasa bei ya maharage ni shilingi elfu kumi mia nne kwa gunia",
+  "truth": {
+   "crop": "beans",
+   "place": "Mombasa",
+   "price": 10400,
+   "unit": "BAG"
+  }
+ },
+ {
+  "id": "s135",
+  "text": "gulu bei ya maharage ni elfu nne kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Gulu",
+   "price": 4000,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s136",
+  "text": "bei ya mahindi kitale leo ni shilingi sabini kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Kitale",
+   "price": 70,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s137",
+  "text": "bei ya maharage sokoni kisumu ni shilingi elfu nane na mia tatu kwa gunia",
+  "truth": {
+   "crop": "beans",
+   "place": "Kisumu",
+   "price": 8300,
+   "unit": "BAG"
+  }
+ },
+ {
+  "id": "s138",
+  "text": "kitale bei ya maharage ni mia mbili kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Kitale",
+   "price": 200,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s139",
+  "text": "kitale bei ya mchele ni shilingi mia moja na thelathini kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Kitale",
+   "price": 130,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s140",
+  "text": "bei ya mahindi nairobi leo ni shilingi elfu sita na hamsini kwa gunia la kilo tisini",
+  "truth": {
+   "crop": "maize",
+   "place": "Nairobi",
+   "price": 6050,
+   "unit": "90 KG"
+  }
+ },
+ {
+  "id": "s141",
+  "text": "maharage nairobi ni mia moja na sitini kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Nairobi",
+   "price": 160,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s142",
+  "text": "bei ya mahindi sokoni dar es salaam ni shilingi elfu sitini na moja kwa gunia la kilo mia moja",
+  "truth": {
+   "crop": "maize",
+   "place": "Dar es Salaam",
+   "price": 61000,
+   "unit": "100 KG"
+  }
+ },
+ {
+  "id": "s143",
+  "text": "bei ya maharage kampala leo ni shilingi elfu nne na mia tatu",
+  "truth": {
+   "crop": "beans",
+   "place": "Kampala",
+   "price": 4300,
+   "unit": null
+  }
+ },
+ {
+  "id": "s144",
+  "text": "dodoma bei ya mchele ni elfu mbili na mia saba na hamsini kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Dodoma",
+   "price": 2750,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s145",
+  "text": "mahindi arusha ni elfu sabini na nane kwa gunia la kilo mia moja",
+  "truth": {
+   "crop": "maize",
+   "place": "Arusha",
+   "price": 78000,
+   "unit": "100 KG"
+  }
+ },
+ {
+  "id": "s146",
+  "text": "maharage sokoni kampala ni shilingi elfu nne na mia tano kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Kampala",
+   "price": 4500,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s147",
+  "text": "bei ya mahindi mombasa leo ni shilingi elfu nne na mia tatu kwa gunia",
+  "truth": {
+   "crop": "maize",
+   "place": "Mombasa",
+   "price": 4300,
+   "unit": "BAG"
+  }
+ },
+ {
+  "id": "s148",
+  "text": "mchele arusha ni shilingi elfu mbili na mia nane na hamsini kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Arusha",
+   "price": 2850,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s149",
+  "text": "maharage kisii leo ni shilingi elfu kumi na tatu na mia sita",
+  "truth": {
+   "crop": "beans",
+   "place": "Kisii",
+   "price": 13600,
+   "unit": null
+  }
+ },
+ {
+  "id": "s150",
+  "text": "bei ya mahindi eldoret leo ni hamsini kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Eldoret",
+   "price": 50,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s151",
+  "text": "bei ya maharage kampala leo ni shilingi elfu tatu kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Kampala",
+   "price": 3000,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s152",
+  "text": "mahindi nakuru leo ni elfu nne na mia saba na hamsini kwa gunia la kilo tisini",
+  "truth": {
+   "crop": "maize",
+   "place": "Nakuru",
+   "price": 4750,
+   "unit": "90 KG"
+  }
+ },
+ {
+  "id": "s153",
+  "text": "bei ya mahindi gulu ni shilingi elfu moja na mia sita kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Gulu",
+   "price": 1600,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s154",
+  "text": "mahindi morogoro ni laki moja elfu saba kwa gunia la kilo mia moja",
+  "truth": {
+   "crop": "maize",
+   "place": "Morogoro",
+   "price": 107000,
+   "unit": "100 KG"
+  }
+ },
+ {
+  "id": "s155",
+  "text": "bei ya mchele eldoret ni shilingi mia mbili kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Eldoret",
+   "price": 200,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s156",
+  "text": "kampala bei ya maharage ni shilingi elfu tatu mia tatu",
+  "truth": {
+   "crop": "beans",
+   "place": "Kampala",
+   "price": 3300,
+   "unit": null
+  }
+ },
+ {
+  "id": "s157",
+  "text": "mahindi sokoni kampala ni elfu moja na mia tisa kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Kampala",
+   "price": 1900,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s158",
+  "text": "bei ya maharage kitale ni shilingi elfu kumi na nne na mia sita kwa gunia",
+  "truth": {
+   "crop": "beans",
+   "place": "Kitale",
+   "price": 14600,
+   "unit": "BAG"
+  }
+ },
+ {
+  "id": "s159",
+  "text": "bei ya maharage sokoni mombasa ni shilingi mia moja themanini kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Mombasa",
+   "price": 180,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s160",
+  "text": "maharage kisumu ni shilingi mia moja na sitini",
+  "truth": {
+   "crop": "beans",
+   "place": "Kisumu",
+   "price": 160,
+   "unit": null
+  }
+ },
+ {
+  "id": "s161",
+  "text": "mwanza bei ya mahindi ni shilingi elfu sitini na sita kwa gunia la kilo mia moja",
+  "truth": {
+   "crop": "maize",
+   "place": "Mwanza",
+   "price": 66000,
+   "unit": "100 KG"
+  }
+ },
+ {
+  "id": "s162",
+  "text": "mbeya bei ya mahindi ni shilingi mia tisa na hamsini kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Mbeya",
+   "price": 950,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s163",
+  "text": "mchele dar es salaam ni elfu mbili na mia nane na hamsini",
+  "truth": {
+   "crop": "rice",
+   "place": "Dar es Salaam",
+   "price": 2850,
+   "unit": null
+  }
+ },
+ {
+  "id": "s164",
+  "text": "eldoret bei ya mahindi ni sabini na tano kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Eldoret",
+   "price": 75,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s165",
+  "text": "bei ya mahindi dar es salaam ni shilingi mia tisa kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Dar es Salaam",
+   "price": 900,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s166",
+  "text": "morogoro bei ya mahindi ni shilingi elfu moja na mia tatu kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Morogoro",
+   "price": 1300,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s167",
+  "text": "bei ya mahindi nakuru leo ni shilingi elfu tano na hamsini kwa gunia",
+  "truth": {
+   "crop": "maize",
+   "place": "Nakuru",
+   "price": 5050,
+   "unit": "BAG"
+  }
+ },
+ {
+  "id": "s168",
+  "text": "bei ya mahindi nairobi leo ni shilingi themanini na tano kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Nairobi",
+   "price": 85,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s169",
+  "text": "morogoro bei ya mahindi ni shilingi mia tisa kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Morogoro",
+   "price": 900,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s170",
+  "text": "mchele kisii leo ni shilingi mia mbili na kumi kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Kisii",
+   "price": 210,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s171",
+  "text": "eldoret bei ya mchele ni shilingi mia moja sabini na tano kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Eldoret",
+   "price": 175,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s172",
+  "text": "bei ya mchele kisii ni shilingi mia moja na ishirini na tano kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Kisii",
+   "price": 125,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s173",
+  "text": "bei ya mahindi sokoni mbeya ni shilingi elfu moja na mia tatu kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Mbeya",
+   "price": 1300,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s174",
+  "text": "bei ya maharage nakuru leo ni shilingi mia mbili kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Nakuru",
+   "price": 200,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s175",
+  "text": "gulu leo bei ya mahindi ni elfu moja mia nne kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Gulu",
+   "price": 1400,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s176",
+  "text": "kakamega bei ya maharage ni mia moja na sitini kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Kakamega",
+   "price": 160,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s177",
+  "text": "mwanza bei ya maharage ni elfu tatu mia tatu na hamsini kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Mwanza",
+   "price": 3350,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s178",
+  "text": "nairobi bei ya maharage ni mia moja na arobaini",
+  "truth": {
+   "crop": "beans",
+   "place": "Nairobi",
+   "price": 140,
+   "unit": null
+  }
+ },
+ {
+  "id": "s179",
+  "text": "maharage morogoro ni shilingi elfu mbili hamsini",
+  "truth": {
+   "crop": "beans",
+   "place": "Morogoro",
+   "price": 2050,
+   "unit": null
+  }
+ },
+ {
+  "id": "s180",
+  "text": "bei ya maharage morogoro leo ni shilingi elfu mbili mia tisa hamsini kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Morogoro",
+   "price": 2950,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s181",
+  "text": "bei ya mahindi gulu ni shilingi elfu moja na mia tisa kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Gulu",
+   "price": 1900,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s182",
+  "text": "bei ya maharage eldoret ni mia moja na sitini kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Eldoret",
+   "price": 160,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s183",
+  "text": "bei ya mahindi kisii leo ni elfu sita na mia tatu kwa gunia",
+  "truth": {
+   "crop": "maize",
+   "place": "Kisii",
+   "price": 6300,
+   "unit": "BAG"
+  }
+ },
+ {
+  "id": "s184",
+  "text": "bei ya mahindi gulu leo ni shilingi elfu moja na mia nane na hamsini kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Gulu",
+   "price": 1850,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s185",
+  "text": "kakamega leo bei ya mahindi ni shilingi elfu tatu",
+  "truth": {
+   "crop": "maize",
+   "place": "Kakamega",
+   "price": 3000,
+   "unit": null
+  }
+ },
+ {
+  "id": "s186",
+  "text": "bei ya mahindi eldoret leo ni shilingi elfu sita kwa gunia la kilo tisini",
+  "truth": {
+   "crop": "maize",
+   "place": "Eldoret",
+   "price": 6000,
+   "unit": "90 KG"
+  }
+ },
+ {
+  "id": "s187",
+  "text": "maharage kampala ni shilingi elfu mbili na mia saba kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Kampala",
+   "price": 2700,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s188",
+  "text": "kampala leo bei ya maharage ni shilingi elfu mbili na mia tano kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Kampala",
+   "price": 2500,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s189",
+  "text": "bei ya mahindi nairobi ni themanini na tano kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Nairobi",
+   "price": 85,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s190",
+  "text": "dar es salaam leo bei ya mchele ni elfu mbili na mia mbili na hamsini",
+  "truth": {
+   "crop": "rice",
+   "place": "Dar es Salaam",
+   "price": 2250,
+   "unit": null
+  }
+ },
+ {
+  "id": "s191",
+  "text": "bei ya mahindi sokoni mbeya ni elfu moja mia moja kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Mbeya",
+   "price": 1100,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s192",
+  "text": "bei ya maharage gulu leo ni elfu nne na mia nne kwa kilo",
+  "truth": {
+   "crop": "beans",
+   "place": "Gulu",
+   "price": 4400,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s193",
+  "text": "bei ya mahindi gulu ni elfu moja na mia nane na hamsini kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Gulu",
+   "price": 1850,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s194",
+  "text": "nairobi bei ya mahindi ni shilingi elfu tatu na mia tisa kwa gunia",
+  "truth": {
+   "crop": "maize",
+   "place": "Nairobi",
+   "price": 3900,
+   "unit": "BAG"
+  }
+ },
+ {
+  "id": "s195",
+  "text": "bei ya mchele mwanza ni shilingi elfu mbili na mia nane na hamsini kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Mwanza",
+   "price": 2850,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s196",
+  "text": "bei ya mahindi kisumu ni shilingi tisini kwa kilo",
+  "truth": {
+   "crop": "maize",
+   "place": "Kisumu",
+   "price": 90,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s197",
+  "text": "mahindi mombasa ni shilingi elfu tatu na mia nne kwa gunia la kilo tisini",
+  "truth": {
+   "crop": "maize",
+   "place": "Mombasa",
+   "price": 3400,
+   "unit": "90 KG"
+  }
+ },
+ {
+  "id": "s198",
+  "text": "bei ya mchele kitale ni shilingi mia moja na thelathini kwa kilo",
+  "truth": {
+   "crop": "rice",
+   "place": "Kitale",
+   "price": 130,
+   "unit": "KG"
+  }
+ },
+ {
+  "id": "s199",
+  "text": "bei ya maharage kitale ni shilingi elfu nane mia tano",
+  "truth": {
+   "crop": "beans",
+   "place": "Kitale",
+   "price": 8500,
+   "unit": null
+  }
+ }
+]

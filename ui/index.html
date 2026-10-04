@@ -1,0 +1,62 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Market Ear v2</title>
+<style>
+body{font-family:system-ui,Segoe UI,Arial,sans-serif;margin:0;background:#f4f1ea;color:#1c1c1c}
+header{background:#1f4d3a;color:#fff;padding:10px 18px}header h1{margin:0;font-size:22px}header p{margin:2px 0 0;font-size:13px;opacity:.9}
+main{display:grid;grid-template-columns:340px 1fr;gap:14px;padding:14px;max-width:1100px;margin:auto}
+.card{background:#fff;border-radius:10px;padding:14px;box-shadow:0 1px 3px #0003}
+h2{font-size:15px;margin:0 0 8px;text-transform:uppercase;letter-spacing:.04em;color:#555}
+button{font-size:15px;padding:8px 12px;border-radius:8px;border:1px solid #1f4d3a;background:#fff;cursor:pointer;margin:2px 2px 2px 0}
+button.primary{background:#1f4d3a;color:#fff}button:disabled{opacity:.5}
+select{font-size:15px;padding:6px}
+.sim{background:#fff3cd;border:1px solid #e0b100;border-radius:6px;padding:6px 8px;font-size:13px;margin-top:8px}
+.badge{display:inline-block;padding:6px 12px;border-radius:20px;font-weight:700;font-size:16px}
+.ok{background:#d6f0dd;color:#14532d}.no{background:#ffe0e0;color:#8a1111}
+table{border-collapse:collapse;width:100%}td,th{text-align:left;padding:5px 8px;border-bottom:1px solid #eee;font-size:15px}th{width:130px;color:#555;font-weight:600}
+.big{font-size:28px;font-weight:700}.small{font-size:12px;color:#666}
+.sms{background:#eef4ff;border-left:4px solid #3b6fd4;padding:8px;margin:6px 0;font-size:15px}
+.mono{font-family:ui-monospace,Consolas,monospace;font-size:13px;background:#f6f6f6;padding:6px;border-radius:6px;word-break:break-word}
+</style></head><body>
+<header><h1>Market Ear v2 <span style="font-weight:400;font-size:15px">Swahili price listener - Hack-Nation Ed.7 - World Bank Small AI - Agriculture</span></h1>
+<p>A small speech model may only output crops, markets, units and numbers from a closed list. It checks the price against WFP data, or says "not sure - ask a person". A person decides. Nothing is sent from this screen.</p></header>
+<main>
+<section class="card"><h2>1. Audio in</h2>
+<button id="rec" class="primary">Record</button><button id="stop" disabled>Stop</button><br>
+<input type="file" id="file" accept="audio/*" style="margin:8px 0"><br>
+<div class="small">Example clips:</div><div id="samples"></div>
+<audio id="player" controls style="width:100%;margin-top:8px"></audio>
+<h2 style="margin-top:14px">Radio channel</h2>
+<select id="cnr"><option value="none">None - listen to the audio directly</option><option value="20">SIMULATED FM, CNR 20 dB</option><option value="12">SIMULATED FM, CNR 12 dB</option><option value="8">SIMULATED FM, CNR 8 dB</option><option value="5">SIMULATED FM, CNR 5 dB</option></select>
+<div class="sim">SIMULATION: the "radio" is a software model (FM modulation, added noise, demodulation). No real broadcast is received here.</div>
+<p><button id="go" class="primary" disabled>2. Listen</button> <span id="status" class="small"></span></p>
+</section>
+<section class="card" id="out"><h2>Result</h2><p class="small">Record or choose a clip, then press Listen. A clip takes up to a minute on a CPU-only laptop.</p></section>
+</main>
+<script>
+let blob=null,mr=null,chunks=[];const $=id=>document.getElementById(id);
+function setBlob(b,name){blob=b;blob.fname=name;$('player').src=URL.createObjectURL(b);$('go').disabled=false}
+$('rec').onclick=async()=>{const s=await navigator.mediaDevices.getUserMedia({audio:true});mr=new MediaRecorder(s);chunks=[];mr.ondataavailable=e=>chunks.push(e.data);mr.onstop=()=>{setBlob(new Blob(chunks,{type:mr.mimeType}),'rec.webm');s.getTracks().forEach(t=>t.stop())};mr.start();$('rec').disabled=true;$('stop').disabled=false};
+$('stop').onclick=()=>{mr.stop();$('rec').disabled=false;$('stop').disabled=true};
+$('file').onchange=e=>{const f=e.target.files[0];if(f)setBlob(f,f.name)};
+fetch('/samples').then(r=>r.json()).then(L=>{L.forEach(s=>{const b=document.createElement('button');b.textContent=s.label;b.title=s.note;b.onclick=async()=>{const r=await fetch('/sample/'+s.file);setBlob(await r.blob(),s.file)};$('samples').appendChild(b)})});
+const esc=s=>String(s==null?'':s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+$('go').onclick=async()=>{$('go').disabled=true;$('status').textContent='listening... (model runs on CPU)';
+ const fd=new FormData();fd.append('audio',blob,blob.fname||'a.webm');fd.append('cnr',$('cnr').value);
+ let r;try{r=await (await fetch('/listen',{method:'POST',body:fd})).json()}catch(e){r={decision:'error',reason:String(e)}}
+ $('status').textContent='';$('go').disabled=false;show(r)};
+function show(r){let h='<h2>Result</h2>';
+ if(r.decision==='error'){$('out').innerHTML=h+'<p class="badge no">Error</p><p>'+esc(r.reason)+'</p>';return}
+ const ok=r.decision==='propose';
+ h+='<p><span class="badge '+(ok?'ok':'no')+'">'+(ok?'Proposed - a person must confirm':'NOT SURE - ask a person')+'</span></p>';
+ h+='<p class="small">Channel: '+esc(r.channel)+(r.channel.startsWith('SIM')?' <b>(SIMULATED)</b>':'')+' - audio '+r.seconds_audio+' s</p>';
+ h+='<table><tr><th>What the model heard (closed vocabulary only)</th><td class="mono">'+esc(r.decoded_text)+'</td></tr>';
+ h+='<tr><th>Free transcript (for comparison, not trusted)</th><td class="mono">'+esc(r.free_transcript)+'</td></tr>';
+ const f=ok?(r.fields||{}):{crop:'withheld (not sure)',place:'withheld (not sure)',price:null,unit:'withheld (not sure)'};h+='<tr><th>Crop</th><td>'+esc(f.crop)+'</td></tr><tr><th>Market</th><td>'+esc(f.place)+'</td></tr><tr><th>Price</th><td class="big">'+(f.price?f.price.toLocaleString():'-')+'</td></tr><tr><th>Unit</th><td>'+esc(f.unit)+'</td></tr>';
+ if(r.wfp){const w=r.wfp;if(w.status==='ok'){h+='<tr><th>WFP reference</th><td><b>'+w.currency+' '+Math.round(w.min).toLocaleString()+' - '+Math.round(w.max).toLocaleString()+'</b> (median '+Math.round(w.median).toLocaleString()+', '+w.n+' monthly values, '+w.from+' to '+w.to+')<br><span class="small">'+esc(w.markets.join(', '))+'; '+esc(w.pricetypes.join('/'))+(w.assumed_unit?'; bag size ASSUMED to be '+w.assumed_unit:'')+'</span><br><b>'+({within:'Inside the range',above:'ABOVE the range',below:'BELOW the range'}[w.verdict])+'</b></td></tr>'}
+  else h+='<tr><th>WFP reference</th><td><b>No reference.</b> <span class="small">'+esc(w.why)+'</span></td></tr>'}
+ h+='<tr><th>Confidence</th><td>margin '+r.margin+' (needs 2.0 or more), fit to vocabulary '+r.gap+' (needs -25.0 or more)'+(ok?'':'<br><b>Why not sure:</b> '+esc(r.reason))+'</td></tr></table>';
+ h+='<h2 style="margin-top:12px">Message a person can send after checking</h2><div class="sms"><b>SW (draft, not checked by a native speaker):</b> '+esc(r.sw)+'</div><div class="sms"><b>EN:</b> '+esc(r.en)+'</div>';
+ if(ok)h+='<button class="primary" onclick="this.outerHTML=\'<b>Confirmed on screen. Nothing was sent: this demo has no sending function.</b>\'">Confirm (clerk)</button> <button onclick="this.outerHTML=\'<b>Rejected. Nothing was sent.</b>\'">Reject</button>';
+ if(r.alternatives&&r.alternatives.length){h+='<p class="small" style="margin-top:10px">Next best readings: '+r.alternatives.map(a=>esc(a.text)+' ('+a.logprob+')').join(' | ')+'</p>'}
+ $('out').innerHTML=h}
+</script></body></html>

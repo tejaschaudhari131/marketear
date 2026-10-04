@@ -1,0 +1,20 @@
+{"id": "g01", "truth_ll": -50.1, "ntok_truth": 28, "dec_ll": -44.4, "ntok_dec": 25, "beam_ll": -44.4, "truth_better": false, "dec": "mahindi kisumu leo ni shilingi elfu tano na mia nne kwa gunia"}
+{"id": "g02", "truth_ll": -31.6, "ntok_truth": 24, "dec_ll": -31.6, "ntok_dec": 24, "beam_ll": -31.6, "truth_better": false, "dec": "bei ya maharage nakuru ni shilingi elfu kumi na mbili kwa gunia"}
+{"id": "g03", "truth_ll": -28.7, "ntok_truth": 22, "dec_ll": -28.7, "ntok_dec": 22, "beam_ll": -28.7, "truth_better": false, "dec": "bei ya mchele nairobi ni shilingi mia moja na sitini kwa kilo"}
+{"id": "g04", "truth_ll": -53.0, "ntok_truth": 27, "dec_ll": -44.2, "ntok_dec": 22, "beam_ll": -44.2, "truth_better": false, "dec": "mahindi eldoret ni shilingi elfu nne na mia tano kwa gunia"}
+{"id": "g05", "truth_ll": -33.0, "ntok_truth": 25, "dec_ll": -33.0, "ntok_dec": 25, "beam_ll": -33.0, "truth_better": false, "dec": "bei ya maharage kitale leo ni shilingi mia mbili na ishirini kwa kilo"}
+{"id": "g06", "truth_ll": -33.0, "ntok_truth": 24, "dec_ll": -29.3, "ntok_dec": 22, "beam_ll": -29.3, "truth_better": false, "dec": "mahindi dodoma ni shilingi elfu moja na mia mbili kwa kilo"}
+{"id": "g07", "truth_ll": -21.2, "ntok_truth": 26, "dec_ll": -21.2, "ntok_dec": 26, "beam_ll": -21.2, "truth_better": false, "dec": "bei ya mchele mwanza ni shilingi elfu mbili na mia tisa kwa kilo"}
+{"id": "g08", "truth_ll": -52.1, "ntok_truth": 26, "dec_ll": -47.9, "ntok_dec": 17, "beam_ll": -47.9, "truth_better": false, "dec": "bei ya maharage arusha ni ishirini na tatu"}
+{"id": "g09", "truth_ll": -38.6, "ntok_truth": 33, "dec_ll": -38.6, "ntok_dec": 33, "beam_ll": -38.6, "truth_better": false, "dec": "mbeya leo bei ya mahindi ni shilingi elfu themanini na tano kwa gunia la kilo mia moja"}
+{"id": "g10", "truth_ll": -40.8, "ntok_truth": 28, "dec_ll": -38.4, "ntok_dec": 28, "beam_ll": -38.4, "truth_better": false, "dec": "bei ya mahindi morogoro ni shilingi themanini na nne kwa gunia la kilo mia moja"}
+{"id": "g11", "truth_ll": -53.7, "ntok_truth": 26, "dec_ll": -55.0, "ntok_dec": 20, "beam_ll": -55.0, "truth_better": true, "dec": "mahindi kakamega ni shilingi thelathini na mbili"}
+{"id": "g12", "truth_ll": -37.2, "ntok_truth": 23, "dec_ll": -37.2, "ntok_dec": 23, "beam_ll": -37.2, "truth_better": false, "dec": "bei ya mchele mombasa ni shilingi mia moja na tisini kwa kilo"}
+{"id": "g13", "truth_ll": -55.7, "ntok_truth": 27, "dec_ll": -63.2, "ntok_dec": 20, "beam_ll": -63.2, "truth_better": true, "dec": "bei ya maharage kisii ni shilingi mia tatu tisa"}
+{"id": "g14", "truth_ll": -36.7, "ntok_truth": 26, "dec_ll": -36.7, "ntok_dec": 26, "beam_ll": -36.7, "truth_better": false, "dec": "kisumu bei ya mahindi ni shilingi elfu tano na mia tatu kwa gunia"}
+{"id": "g15", "truth_ll": -42.9, "ntok_truth": 23, "dec_ll": -40.8, "ntok_dec": 22, "beam_ll": -40.8, "truth_better": false, "dec": "bei ya mahindi gulu ni shilingi elfu moja na mia moja kwa kilo"}
+{"id": "g16", "truth_ll": -45.1, "ntok_truth": 26, "dec_ll": -33.3, "ntok_dec": 18, "beam_ll": -33.3, "truth_better": false, "dec": "bei ya mchele dar es salaam ni shilingi themanini"}
+{"id": "g17", "truth_ll": -36.3, "ntok_truth": 21, "dec_ll": -41.4, "ntok_dec": 9, "beam_ll": -41.4, "truth_better": true, "dec": "mahindi mbeya ni nne"}
+{"id": "g18", "truth_ll": -47.0, "ntok_truth": 22, "dec_ll": -43.7, "ntok_dec": 21, "beam_ll": -43.7, "truth_better": false, "dec": "mahindi mbeya ni shilingi elfu moja na mia nane kwa kilo"}
+{"id": "g19", "truth_ll": -55.9, "ntok_truth": 33, "dec_ll": -49.2, "ntok_dec": 19, "beam_ll": -49.2, "truth_better": false, "dec": "bei ya maharage mwanza ni shilingi mbili kwa kilo"}
+{"id": "g20", "truth_ll": -40.4, "ntok_truth": 27, "dec_ll": -40.4, "ntok_dec": 27, "beam_ll": -40.4, "truth_better": false, "dec": "bei ya mahindi nakuru ni shilingi elfu sita na mia saba na hamsini kwa gunia"}

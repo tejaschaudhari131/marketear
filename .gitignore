@@ -1,0 +1,23 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# audio (human recordings and synthetic speech; see README, licence notes)
+*.wav
+*.mp3
+*.m4a
+*.ogg
+*.webm
+*.flac
+recording/*.wav
+# large third-party data and model files, fetched separately
+data/slr25/
+data/fleurs_sw_dev_audio/
+data/rtlml_fm_sample/
+*.npy
+*.safetensors
+*.bin
+*.pt
+*.onnx
+logs/
